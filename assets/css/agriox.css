@@ -2021,9 +2021,9 @@ button {
 
 .main-slider__title {
   color: #ffffff;
-  font-size: 100px;
-  line-height: 1em;
-  font-family: var(--agriox-font-3, "Shadows Into Light", cursive);
+  font-size: 60px;
+  line-height: 1.3em;
+  font-family: var(--agriox-font-3, "Shadows Into Light");
   margin-top: 22px;
   margin-bottom: 34px;
   opacity: 0;
@@ -2346,8 +2346,8 @@ button {
 
 .about-one__left-img::after {
   content: '';
-  width: 28px;
-  height: 110px;
+  /* width: 28px;
+  height: 110px; */
   background-color: var(--agriox-primary, #334b35);
   position: absolute;
   left: -88px;
@@ -4541,16 +4541,19 @@ button {
   display: block;
   border-top: 1px solid #465c48;
   padding-top: 29px;
+  text-align: center;
+  /* float:; */
 }
 
 .footer-widget__about-contact-box .phone {
   font-size: 15px;
   line-height: 36px;
   font-weight: 500;
+  color: #000;
 }
 
 .footer-widget__about-contact-box .phone a {
-  color: #ffffff;
+  color: black;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   -webkit-transition-delay: 0.1s;
@@ -4573,10 +4576,11 @@ button {
   font-size: 15px;
   line-height: 36px;
   font-weight: 500;
+  color: #000;
 }
 
 .footer-widget__about-contact-box p a {
-  color: #ffffff;
+  color: black;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   -webkit-transition-delay: 0.1s;
@@ -4596,7 +4600,7 @@ button {
 }
 
 .footer-widget__about-contact-box .text {
-  color: #ffffff;
+  color: black;
   font-size: 15px;
   line-height: 36px;
   font-weight: 500;
@@ -7628,7 +7632,7 @@ button {
 }
 
 .contact-one__text {
-  color: var(--agriox-color-1, #687469);
+  color: var(--agriox-black, #687469);
   margin: 0;
   margin-top: -10px;
   font-weight: 500;
