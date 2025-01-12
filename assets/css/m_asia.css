@@ -144,7 +144,7 @@ ul {
   position: static;
   max-width: 1200px;
   padding: 0px 15px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .page-wrapper {
@@ -339,6 +339,7 @@ button {
 }
 
 .sec-title__title {
+  margin-top: 15px;
   font-size: 50px;
   line-height: 1em;
   font-weight: 700;
@@ -1104,7 +1105,7 @@ button {
 
 .mobile-nav__content {
   width: 300px;
-  background: var(--agriox-primary, #334b35);
+  background:white;
   z-index: 10;
   position: relative;
   height: 100%;
@@ -1116,13 +1117,13 @@ button {
 }
 
 .mobile-nav__content .thm-btn {
-  padding: 8px 0;
+  padding: 8px 0;;
   width: 100%;
   text-align: center;
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1133,7 +1134,7 @@ button {
   top: 20px;
   right: 15px;
   font-size: 18px;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
@@ -1165,7 +1166,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   line-height: 30px;
-  color: #ffffff;
+  color: black;
   font-size: 16px;
   font-family: var(--agriox-font, "DM Sans", sans-serif);
   font-weight: 400;
@@ -4552,14 +4553,13 @@ button {
 .footer-widget__about-contact-box {
   position: relative;
   display: block;
-  border-top: 1px solid #465c48;
-  padding-top: 29px;
+  padding-top: 15px;
   text-align: center;
   /* float:; */
 }
 
 .footer-widget__about-contact-box .phone {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 36px;
   font-weight: 500;
   color: #000;
@@ -4581,12 +4581,12 @@ button {
   position: relative;
   display: inline-block;
   color: var(--agriox-base, #cf1b1b);
-  font-size: 15px;
+  font-size: 20px;
   padding-right: 10px;
 }
 
 .footer-widget__about-contact-box p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 36px;
   font-weight: 500;
   color: #000;
@@ -4608,13 +4608,13 @@ button {
   position: relative;
   display: inline-block;
   color: var(--agriox-base, #cf1b1b);
-  font-size: 15px;
+  font-size: 20px;
   padding-right: 10px;
 }
 
 .footer-widget__about-contact-box .text {
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 36px;
   font-weight: 500;
 }
@@ -4623,7 +4623,7 @@ button {
   position: relative;
   display: inline-block;
   color: var(--agriox-base, #cf1b1b);
-  font-size: 15px;
+  font-size: 20px;
   padding-right: 10px;
 }
 
