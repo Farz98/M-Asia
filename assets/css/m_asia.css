@@ -3809,7 +3809,7 @@ button {
 .providing-quality-one__content-box-list {
   position: relative;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   display: block;
   overflow: hidden;
 }
