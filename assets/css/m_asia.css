@@ -3342,7 +3342,7 @@ button {
   position: relative;
   display: block;
   background: #ffffff;
-  padding: 0px 0px 120px;
+  padding: 0px 0px 70px;
 }
 
 .projects-one .auto-container {
@@ -7631,7 +7631,7 @@ button {
 =============================================
 ***/
 .contact-one {
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 .contact-one__content {
