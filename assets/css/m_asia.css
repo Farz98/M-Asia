@@ -2374,7 +2374,6 @@ button {
   position: relative;
   display: block;
   overflow: hidden;
-  border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
